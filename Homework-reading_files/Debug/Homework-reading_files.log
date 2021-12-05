@@ -1,0 +1,4 @@
+﻿  Homework-reading_files.cpp
+C:\Users\OMEN\source\repos\Homework-reading_files\Homework-reading_files.cpp(100,15): warning C4244: инициализация: преобразование "std::streamoff" в "int", возможна потеря данных
+C:\Users\OMEN\source\repos\Homework-reading_files\Homework-reading_files.cpp(102,13): warning C4244: инициализация: преобразование "std::streamoff" в "int", возможна потеря данных
+  Homework-reading_files.vcxproj -> C:\Users\OMEN\source\repos\Homework-reading_files\Debug\Homework-reading_files.exe
