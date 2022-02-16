@@ -114,12 +114,12 @@ int main(int argc, char* argv[])
     //Чтение BMP файла
     std::ifstream fileWithPicture;
     file4bytes.open(argv[5], std::ios_base::in);
-    file4bytes.seekg(0,std::ios_base::beg);
-    int n = 2;
+    file4bytes.seekg(19,std::ios_base::beg);
+    int n = 4;
     //Создаем буффер
-    char* buffer = new char[n];
+    char* buffer = new char[4];
     //Читаем в него байты
-    file4bytes.read(buffer, n);
+    file4bytes.read(buffer, 4);
     //выводим их на экран
     std::cout << buffer;
     delete[] buffer;
